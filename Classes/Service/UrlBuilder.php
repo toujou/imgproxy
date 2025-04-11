@@ -14,7 +14,7 @@ class UrlBuilder
 
     protected $options = [];
 
-    public function __construct(string $imgProxyUrl, string $key = null, string $salt = null)
+    public function __construct(string $imgProxyUrl, ?string $key = null, ?string $salt = null)
     {
         $this->imgProxyUrl = $imgProxyUrl;
 
